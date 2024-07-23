@@ -21,12 +21,12 @@ const space_grotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
   title: {
-    default: siteMetadata.title,
-    template: `%s | ${siteMetadata.title}`,
+    default: `${siteMetadata.title} 覃江扮`,
+    template: `%s | ${siteMetadata.title} 覃江扮`,
   },
   description: siteMetadata.description,
   openGraph: {
-    title: siteMetadata.title,
+    title: `${siteMetadata.title} 覃江扮`,
     description: siteMetadata.description,
     url: './',
     siteName: siteMetadata.title,
@@ -74,7 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-      <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
+      <body className="bg-white pl-[calc(100vw-100%)] text-[#1d1d1d] antialiased dark:bg-[#111111] dark:text-[#ffffffe3]">
         <ThemeProviders>
           <Analytics analyticsConfig={siteMetadata.analytics as AnalyticsConfig} />
           <SectionContainer>

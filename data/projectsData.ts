@@ -7,20 +7,16 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'HaYi',
+    description: `为Lens中文用户构建`,
+    imgSrc: '/static/images/hayi.png',
+    href: 'https://coinipfs.com',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'QianCset',
+    description: `去中心化房屋租赁平台`,
+    imgSrc: '/static/images/qiancset.png',
+    href: 'https://github.com/qiancset',
   },
 ]
 

@@ -14,7 +14,16 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
+/*     colors: {
+      'orange': '#ff7849',
+      'gray-dark': '#FEFEFE',
+      'gray': '#8492a6',
+      'gray-light': '#d3dce6',
+    }, */
     extend: {
+      borderColor: {
+        DEFAULT: 'rgba(204, 204, 204, 0.4)',
+      },
       lineHeight: {
         11: '2.75rem',
         12: '3rem',
@@ -25,7 +34,7 @@ module.exports = {
         sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
       },
       colors: {
-        primary: colors.pink,
+        primary: colors.orange,
         gray: colors.gray,
       },
       typography: ({ theme }) => ({
